@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}
+Contact the developer
+{% endblock %}
+{% load static %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+{% endblock %}
+
+{% block content %}
+<section id="contact-me">
+    <div class="contact-hero">
+        <div class="hero">
+            <h1>Below is my contact details</h1>
+        </div>
+
+          <div class="contact-info">
+                      
+        <p>In case you have querie about the website or you want to contact me</p>
+        <br>
+              <a href="mailto:helpqpaper@gmail.com?subject = Feedback&body = Message">helpqpaper@gmail.com</a>
+              <br>
+              <p>Don't forget to Send feed back as well</p>
+          </div>
+
+    </div>
+    
+
+
+
+</section>
+{% endblock %}
